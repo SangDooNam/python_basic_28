@@ -13,16 +13,69 @@ import re
 
 # print(new)
 
-def digit_filter(list):
-    new = []
-    for i in list:
-        if not re.search(r'\d', i):
+# def digit_filter(list):
+#     new = []
+#     for i in list:
+#         if not re.search(r'\d', i):
             
-            new.append(i)
+#             new.append(i)
             
-    print(new)
+#     print(new)
     
 
-l33t = ['Digital Car33r Institute', 'DCI', 'Digital', 'Career', 'Inst1tut3']
+# l33t = ['Digital Car33r Institute', 'DCI', 'Digital', 'Career', 'Inst1tut3']
 
-digit_filter(l33t)
+# digit_filter(l33t)
+
+#------------------------------------------------------------
+
+# def digit_filter(list):
+    
+#     container = []
+    
+#     for element in list:
+        
+#         if not any(i.isdigit() for i in element):
+        
+#             container.append(element)
+            
+#     return container
+    
+    
+    
+# l33t = ['Digital Car33r Institute', 'DCI', 'Digital', 'Career', 'Inst1tut3']
+
+
+# print(digit_filter(l33t))
+
+
+#------------------------------------------------------------
+
+# def digit_filter(list):
+    
+#     container = []
+    
+#     for element in list:
+        
+#         for i in element:
+            
+#             if i.isdigit():
+                
+#                 container.append(element)
+#                 break
+    
+#     for e in container:
+        
+#         list.remove(e)
+    
+#     return list
+
+
+
+
+
+# l33t = ['Digital Car33r Institute', 'DCI', 'Digital', 'Career', 'Inst1tut3']
+
+# print(digit_filter(l33t))
+
+
